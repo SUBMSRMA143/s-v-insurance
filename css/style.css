@@ -177,7 +177,7 @@
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -223,21 +223,21 @@
 }
 
 @media (min-width: 1200px) {
-    .container.facts .facts-text  {
+    .container.facts .facts-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 
-    .container.facts .facts-counter  {
+    .container.facts .facts-counter {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .container.facts .facts-text  {
+    .container.facts .facts-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 
-    .container.facts .facts-counter  {
+    .container.facts .facts-counter {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -418,6 +418,7 @@
 /*** Footer ***/
 .footer {
     color: #A7A8B4;
+    padding-inline: 0px;
 }
 
 .footer .btn.btn-link {
@@ -468,4 +469,8 @@
 
 .footer .copyright a:hover {
     color: #FFFFFF;
+}
+
+.footer .container {
+    min-width: 95%;
 }
